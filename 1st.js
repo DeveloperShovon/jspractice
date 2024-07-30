@@ -194,27 +194,75 @@
 // based on highest score , return name of the player.
 
 
-function highscorer(playerinfo){
-   let highscorename = playerinfo[0] [0];
-   let highscorepoint = playerinfo[0] [1];
+// function highscorer(playerinfo){
+//    let highscorename = playerinfo[0] [0];
+//    let highscorepoint = playerinfo[0] [1];
 
-   for(var x=1 ; x<playerinfo.length; x++){
-        if(highscorepoint<playerinfo[x] [1]){
-            highscorepoint = playerinfo [x][1]
-            highscorename=playerinfo[x][0]
-        }
-    } 
-   // return highscorename;
-     return highscorepoint;
-   } 
+//    for(var x=1 ; x<playerinfo.length; x++){
+//         if(highscorepoint<playerinfo[x] [1]){
+//             highscorepoint = playerinfo [x][1]
+//             highscorename=playerinfo[x][0]
+//         }
+//     } 
+//    // return highscorename;
+//      return highscorepoint;
+//    } 
 
 
-let playername = [
-    [ 'Shovon' , 12] ,
-     [ 'shoumik' , 14] , 
-     ['pinky' , 78] , 
-     ['sujoy', 76]
-    ];
+// let playername = [
+//     [ 'Shovon' , 12] ,
+//      [ 'shoumik' , 14] , 
+//      ['pinky' , 78] , 
+//      ['sujoy', 76]
+//     ];
 
-let voda =highscorer(playername);
-console.log(voda);
+// let voda =highscorer(playername);
+// console.log(voda);
+
+
+
+
+
+
+// task 9 
+// create a funtion name highestscorer
+// that will received 2d array called playerinfo
+// based on highest score , return name of the player.
+
+
+// function highestscore(playerinfo){
+//     let name = playerinfo[0][0]
+//     let point = playerinfo[0][1]
+
+//     for(let x=0; x<playerinfo.length; x++){
+//         if(point<playerinfo[x][1]){
+             
+//              point = playerinfo[x][1]
+//              name = playerinfo[x][0]
+//         }
+//     }
+//     return name;
+// }
+
+// let player = [
+//     ['shovon' ,89],
+//     ['shoumik' , 12],
+//     ['Rupon', 17],
+//     ['Srijon' , 76]
+// ];
+// let topplayer =highestscore(player);
+// console.log(topplayer);
+
+// how to create an object 
+// how to print value of an object
+// adding a constractor
+// adding a funtion inside a conastractor
+
+
+let student1 ={
+     name : 'jhsdkf',
+     roll : 8689,
+     cgpa : 3.67,
+     language : ["dff", "fdf"]
+}
+console.log(student1.cgpa);
