@@ -259,10 +259,64 @@
 // adding a funtion inside a conastractor
 
 
-let student1 ={
-     name : 'jhsdkf',
-     roll : 8689,
-     cgpa : 3.67,
-     language : ["dff", "fdf"]
+// let student1 ={
+//      name : 'jhsdkf',
+//      roll : 8689,
+//      cgpa : 3.67,
+//      language : ["dff", "fdf"]
+// }
+// console.log(student1.cgpa);
+
+
+
+// how to create a constractor . and adding a inside a constractor .
+
+
+// function Object (name , roll , cgpa , language){
+//      this.name = name,
+//      this.roll = roll ,
+//      this.cgpa = cgpa,
+//      this.language = language   
+
+//      this.display= function (){
+//           console.log(this.name); 
+//           console.log(this.roll); 
+//           console.log(this.cgpa); 
+//           console.log(this.language); 
+//      } 
+// }
+
+// let  student1= new Object ("pinky ", 76, 3.34, ["bangla", "english"]);
+// let  student2= new Object ("shakil", 33, 3.44, ["bangla", "english"]);
+// let  student3= new Object ("shafim", 78, 3.33, ["bangla", "english"]);
+// let  student4= new Object ("shovon ", 72, 2.34, ["bangla", "english"]);
+
+// student1.display()
+// student4.display()
+
+
+
+// Gussing game .
+// gussing a number 1 to 5 
+// genarate a number between 1 to 5
+// if the guss number match tha random number then called you have win otherwise loss .
+// run the game for 5 time 
+// show the number to win or loss
+var win = 0;
+var loss = 0;
+
+for(var x=1; x<=5; x++){
+     var gussnum = parseInt(prompt("Enter your guss number"));
+     var randomnum = Math.ceil(Math.random()*5);
+     if(gussnum==randomnum){
+          console.log("you have win")
+          win++;
+     }
+     else{
+          console.log("you have loss this number is "+ randomnum)
+          loss++;
+     }
 }
-console.log(student1.cgpa);
+
+document.write("you win" + win + "<br>" );
+document.write("you loss" +loss + "<br>");   
