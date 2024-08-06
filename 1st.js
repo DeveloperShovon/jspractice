@@ -302,21 +302,40 @@
 // if the guss number match tha random number then called you have win otherwise loss .
 // run the game for 5 time 
 // show the number to win or loss
-var win = 0;
-var loss = 0;
+// var win = 0;
+// var loss = 0;
 
-for(var x=1; x<=5; x++){
-     var gussnum = parseInt(prompt("Enter your guss number"));
-     var randomnum = Math.ceil(Math.random()*5);
-     if(gussnum==randomnum){
-          console.log("you have win")
-          win++;
-     }
-     else{
-          console.log("you have loss this number is "+ randomnum)
-          loss++;
-     }
-}
+// for(var x=1; x<=5; x++){
+//      var gussnum = parseInt(prompt("Enter your guss number"));
+//      var randomnum = Math.ceil(Math.random()*5);
+//      if(gussnum==randomnum){
+//           console.log("you have win")
+//           win++;
+//      }
+//      else{
+//           console.log("you have loss this number is "+ randomnum)
+//           loss++;
+//      }
+// }
 
-document.write("you win" + win + "<br>" );
-document.write("you loss" +loss + "<br>");   
+// document.write("you win" + win + "<br>" );
+// document.write("you loss" +loss + "<br>");   
+
+
+// data object and mathod
+// var time = new Date ();
+// console.log(time);
+
+// var tarik = time.getDate();
+// console.log(tarik);
+// var day = time.getDay();
+// console.log(day);
+// var secound = time.getSeconds();
+// console.log(secound);
+
+
+
+// DOM-Document object model
+document.getElementById("shovon").innerHTML="Pinky";
+document.getElementById("kumar").innerHTML="rani";
+document.getElementById("das").innerHTML="mohanta";
