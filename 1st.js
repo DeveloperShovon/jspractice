@@ -336,6 +336,13 @@
 
 
 // DOM-Document object model
-document.getElementById("shovon").innerHTML="Pinky";
-document.getElementById("kumar").innerHTML="rani";
-document.getElementById("das").innerHTML="mohanta";
+// document.getElementById("shovon").innerHTML="Pinky";
+// document.getElementById("kumar").innerHTML="rani";
+// document.getElementById("das").innerHTML="mohanta";
+document.querySelector("#s").innerHTML= "HOME";
+document.querySelector("a").innerHTML= "HOME";
+document.querySelector(".c").innerHTML= "HOME";
+
+document.querySelectorAll("ul li a")[0].innerHTML= "About"
+document.querySelectorAll("ul li a")[1].innerHTML= "Page"
+document.querySelectorAll("ul li a")[2].innerHTML= "Discriotion"
