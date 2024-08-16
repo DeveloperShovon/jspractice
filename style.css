@@ -1,0 +1,12 @@
+.slider a {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border-radius: 39px;
+    margin: 10px;
+    font-size: 22px;
+}
+.slider a i {
+    font-weight: 900;
+    padding: 6px;
+}
