@@ -1,4 +1,4 @@
-.slider a {
+.slider {
     background-color: black;
     color: white;
     padding: 16px;
@@ -9,4 +9,30 @@
 .slider a i {
     font-weight: 900;
     padding: 6px;
+}
+
+.p{
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+
+}
+.button{
+    margin-left: 50px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    color: rgb(253, 253, 253);
+    background-color: black;
+
+}
+
+
+.custom{
+    
+    color: rgb(253, 253, 253);
+    background-color: rgb(100, 187, 23);
+    font-size: 20px;
+
 }
